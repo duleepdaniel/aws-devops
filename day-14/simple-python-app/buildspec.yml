@@ -4,7 +4,7 @@ env:
   parameter-store:
     DOCKER_REGISTRY_USERNAME: /CodeBuild/docker-username
     DOCKER_REGISTRY_PASSWORD: /CodeBuild/docker-password
-    DOCKER_REGISTRY_URL: /CodeBuild/docker-registryurl
+    DOCKER_REGISTRY_URL: docker.io/duleepdaniel/aws-devops:latest
 phases:
   install:
     runtime-versions:
